@@ -46,13 +46,11 @@ Abra a pasta `consumo-energia` no Visual Studio Code.
 Abra o terminal do VS Code e digite:
 
 ```bash
+git clone https://github.com/vhpagliarini-hub/consumo-energia.git
+```
+```bash
+cd consumo-energia
+```
+```bash
 python app.py
 ```
-
-### 4. Informe os dados
-
-O programa solicitará:
-
-* ⚡ Nome do aparelho
-* 🔌 Potência em watts (W)
-* ⏱️ Horas de uso por dia
